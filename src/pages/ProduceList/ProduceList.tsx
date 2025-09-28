@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProduceList = () => {
   return (
-    <div>ProduceList</div>
+    <div className='bg-slate-700'>ProduceList</div>
   )
 }
 
