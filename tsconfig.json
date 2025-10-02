@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
     "target": "es2015",
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"]
+    }
   },
   "files": [],
   "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }]
